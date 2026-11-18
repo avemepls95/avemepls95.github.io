@@ -12,6 +12,12 @@ export function matchCountry(input, countries) {
   return countries.find(c => keys(c).includes(q)) ?? null;
 }
 
+export function resolveTypedAnswer(input, countries) {
+  if (!normalize(input)) return { type: 'dontKnow' };
+  const country = matchCountry(input, countries);
+  return country ? { type: 'country', country } : { type: 'unknown' };
+}
+
 export function suggestCountries(query, countries, limit = 6) {
   const q = normalize(query);
   if (!q) return [];

@@ -71,7 +71,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 /* Шапка на градиенте */
 
 .hero {
-  padding: calc(env(safe-area-inset-top) + 28px) 22px 44px;
+  padding: calc(env(safe-area-inset-top) + 16px) 22px 38px;
   color: #fff;
   display: flex;
   align-items: flex-end;
@@ -81,7 +81,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 
 .hero h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.1;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -273,19 +273,42 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 
 .tab[aria-current="page"] { background: var(--well); color: var(--ink); }
 
+body:has(.answer-input:focus) .tabbar { display: none; }
+
 /* Вопрос */
 
 .fact-card {
+  position: relative;
   margin: 0;
-  padding: 24px 22px;
-  border-radius: 26px;
+  padding: 18px 50px 18px 20px;
+  border-radius: 24px;
   background: var(--well);
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.42;
   font-weight: 500;
   letter-spacing: -0.01em;
   text-wrap: pretty;
 }
+
+.fact-card p { margin: 0; }
+
+.fact-delete {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink-2);
+}
+
+.fact-delete:active { background: var(--line); }
+
+.fact-delete svg { width: 19px; height: 19px; }
 
 .choices { display: grid; gap: 10px; margin-top: 18px; }
 
@@ -315,8 +338,17 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 
 .choice.is-dim { opacity: 0.45; }
 
+.answer-form { display: grid; gap: 10px; margin-top: 16px; }
+
+.answer-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+.answer-actions .btn { min-height: 52px; padding: 0 16px; }
+
+.btn-secondary { background: var(--well); color: var(--ink); }
+
 .feedback {
   margin-top: 22px;
+  scroll-margin-bottom: calc(var(--tabbar-space) + 16px);
   animation: rise 420ms var(--ease-out) both;
 }
 

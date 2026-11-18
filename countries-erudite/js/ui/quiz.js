@@ -1,8 +1,9 @@
 import { h, hero, icon } from './dom.js';
 import { applyAnswer } from '../core/leitner.js';
 import { nextFact, recordAnswer } from '../core/session.js';
-import { pickChoices, suggestCountries, matchCountry } from '../core/answers.js';
+import { pickChoices, suggestCountries, resolveTypedAnswer } from '../core/answers.js';
 import { flagEmoji } from '../core/flags.js';
+import { deleteFact } from '../core/catalog.js';
 
 export function renderQuiz(root, ctx) {
   if (ctx.summary) return renderSummary(root, ctx);
@@ -65,13 +66,20 @@ function drawQuestion(root, ctx) {
   }
 
   const body = ctx.state.settings.answerMode === 'input' ? inputAnswer(root, ctx, q) : choiceAnswer(root, ctx, q);
+  const removeFact = () => {
+    if (!confirm('Удалить факт?')) return;
+    ctx.update(deleteFact(ctx.state, q.fact));
+    next(root, ctx);
+  };
 
   root.replaceChildren(
     hero(`Вопрос ${q.number}`,
       s.answered ? h('span', { class: 'chip' }, `${s.right} из ${s.answered}`) : null,
       finishChip),
     h('section', { class: 'sheet' },
-      h('p', { class: 'fact-card' }, q.fact.text),
+      h('div', { class: 'fact-card' },
+        h('p', null, q.fact.text),
+        h('button', { class: 'fact-delete', type: 'button', 'aria-label': 'Удалить факт', title: 'Удалить факт', onClick: removeFact }, icon('trash'))),
       body,
       q.answer ? feedback(root, ctx, q) : null),
   );
@@ -135,15 +143,23 @@ function inputAnswer(root, ctx, q) {
     suggestions.hidden = found.length === 0;
   };
 
-  const submit = () => {
-    const country = matchCountry(input.value, ctx.countries);
-    if (!country) {
+  const dontKnow = () => {
+    q.typed = '';
+    submitAnswer(root, ctx, null);
+  };
+
+  // Отправка пустого поля, в том числе галочкой клавиатуры, засчитывается как «Не знаю».
+  const submit = e => {
+    e.preventDefault();
+    const result = resolveTypedAnswer(input.value, ctx.countries);
+    if (result.type === 'dontKnow') return dontKnow();
+    if (result.type === 'unknown') {
       error.hidden = false;
       input.classList.add('is-invalid');
       return;
     }
     q.typed = input.value.trim();
-    submitAnswer(root, ctx, country.id);
+    submitAnswer(root, ctx, result.country.id);
   };
 
   input.addEventListener('input', () => {
@@ -152,26 +168,15 @@ function inputAnswer(root, ctx, q) {
     input.classList.remove('is-invalid');
     showSuggestions();
   });
-  input.addEventListener('keydown', e => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      submit();
-    }
-  });
   if (q.typed) showSuggestions();
 
-  return h('div', null,
-    h('div', { class: 'field' }, input, error, suggestions),
-    h('div', { class: 'actions' },
-      h('button', { class: 'btn btn-primary', type: 'button', onClick: submit }, 'Ответить'),
-      h('button', {
-        class: 'btn btn-ghost',
-        type: 'button',
-        onClick: () => {
-          q.typed = '';
-          submitAnswer(root, ctx, null);
-        },
-      }, 'Не знаю')));
+  return h('form', { class: 'answer-form', onSubmit: submit, novalidate: true },
+    input,
+    error,
+    h('div', { class: 'answer-actions' },
+      h('button', { class: 'btn btn-secondary', type: 'button', onClick: dontKnow }, 'Не знаю'),
+      h('button', { class: 'btn btn-primary', type: 'submit' }, 'Ответить')),
+    suggestions);
 }
 
 function feedback(root, ctx, q) {
