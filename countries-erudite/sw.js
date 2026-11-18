@@ -1,4 +1,4 @@
-const VERSION = '20261118141828';
+const VERSION = '20261118142623';
 // На avemepls95.github.io живут и другие сайты, поэтому кеши различаются префиксом.
 const PREFIX = 'countries-erudite-';
 const CACHE = `${PREFIX}${VERSION}`;
@@ -28,7 +28,9 @@ const FILES = [
 ];
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)).then(() => self.skipWaiting()));
+  // GitHub Pages разрешает браузеру кешировать файлы на 10 минут, а новой версии нужны свежие файлы.
+  const requests = FILES.map(file => new Request(file, { cache: 'reload' }));
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(requests)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', event => {

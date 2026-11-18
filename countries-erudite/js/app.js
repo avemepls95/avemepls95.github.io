@@ -51,6 +51,10 @@ render();
 
 // Локально service worker мешает видеть правки, поэтому включается только параметром ?sw.
 if ('serviceWorker' in navigator && (location.hostname !== 'localhost' || location.search.includes('sw'))) {
+  // Новая версия показывается сразу после установки, без повторного запуска приложения.
+  if (navigator.serviceWorker.controller) {
+    navigator.serviceWorker.addEventListener('controllerchange', () => location.reload());
+  }
   navigator.serviceWorker.register('sw.js');
 }
 navigator.storage?.persist?.();
