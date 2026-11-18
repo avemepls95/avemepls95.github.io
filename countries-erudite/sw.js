@@ -1,4 +1,4 @@
-const VERSION = '20261118140954';
+const VERSION = '20261118141828';
 // На avemepls95.github.io живут и другие сайты, поэтому кеши различаются префиксом.
 const PREFIX = 'countries-erudite-';
 const CACHE = `${PREFIX}${VERSION}`;

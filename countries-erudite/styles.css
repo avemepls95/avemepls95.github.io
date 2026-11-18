@@ -50,6 +50,8 @@ button, input, textarea { font: inherit; color: inherit; }
 
 button { cursor: pointer; }
 
+[hidden] { display: none !important; }
+
 svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
 .backdrop {
@@ -275,6 +277,13 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 
 body:has(.answer-input:focus) .tabbar { display: none; }
 
+/* Шапка сворачивается, чтобы факт, поле, подсказки и кнопки поместились над клавиатурой. */
+.screen:has(.answer-input:focus) .hero { padding: env(safe-area-inset-top) 0 20px; }
+
+.screen:has(.answer-input:focus) .hero > * { display: none; }
+
+.screen:has(.answer-input:focus) .sheet { padding-top: 18px; }
+
 /* Вопрос */
 
 .fact-card {
@@ -341,6 +350,34 @@ body:has(.answer-input:focus) .tabbar { display: none; }
 .answer-form { display: grid; gap: 10px; margin-top: 16px; }
 
 .answer-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+.suggestion-chips {
+  display: flex;
+  gap: 8px;
+  margin: 0 -18px;
+  padding: 0 18px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.suggestion-chips::-webkit-scrollbar { display: none; }
+
+.suggestion-chip {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--well);
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.suggestion-chip .flag { font-size: 18px; }
 
 .answer-actions .btn { min-height: 52px; padding: 0 16px; }
 

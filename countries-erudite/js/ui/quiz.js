@@ -79,7 +79,7 @@ function drawQuestion(root, ctx) {
     h('section', { class: 'sheet' },
       h('div', { class: 'fact-card' },
         h('p', null, q.fact.text),
-        h('button', { class: 'fact-delete', type: 'button', 'aria-label': 'Удалить факт', title: 'Удалить факт', onClick: removeFact }, icon('trash'))),
+        h('button', { class: 'fact-delete', type: 'button', 'aria-label': 'Удалить факт', title: 'Удалить факт', onPointerdown: keepFocus, onClick: removeFact }, icon('trash'))),
       body,
       q.answer ? feedback(root, ctx, q) : null),
   );
@@ -105,6 +105,10 @@ function choiceAnswer(root, ctx, q) {
     }));
 }
 
+// Нажатие оставляет фокус в поле, поэтому свёрнутая шапка не разворачивается
+// и кнопка не уходит из-под пальца до срабатывания click.
+const keepFocus = e => e.preventDefault();
+
 function inputAnswer(root, ctx, q) {
   if (q.answer) {
     return h('div', { class: 'field' },
@@ -116,7 +120,7 @@ function inputAnswer(root, ctx, q) {
       }));
   }
 
-  const suggestions = h('div', { class: 'group suggestions', hidden: true });
+  const suggestions = h('div', { class: 'suggestion-chips', hidden: true });
   const error = h('p', { class: 'field-error', hidden: true }, 'Нет такой страны');
   const input = h('input', {
     class: 'input answer-input',
@@ -138,7 +142,7 @@ function inputAnswer(root, ctx, q) {
   const showSuggestions = () => {
     const found = suggestCountries(input.value, ctx.countries);
     suggestions.replaceChildren(...found.map(c =>
-      h('button', { class: 'suggestion', type: 'button', onClick: () => choose(c) },
+      h('button', { class: 'suggestion-chip', type: 'button', onPointerdown: keepFocus, onClick: () => choose(c) },
         h('span', { class: 'flag' }, flagEmoji(c.id)), c.name)));
     suggestions.hidden = found.length === 0;
   };
@@ -173,10 +177,10 @@ function inputAnswer(root, ctx, q) {
   return h('form', { class: 'answer-form', onSubmit: submit, novalidate: true },
     input,
     error,
+    suggestions,
     h('div', { class: 'answer-actions' },
-      h('button', { class: 'btn btn-secondary', type: 'button', onClick: dontKnow }, 'Не знаю'),
-      h('button', { class: 'btn btn-primary', type: 'submit' }, 'Ответить')),
-    suggestions);
+      h('button', { class: 'btn btn-secondary', type: 'button', onPointerdown: keepFocus, onClick: dontKnow }, 'Не знаю'),
+      h('button', { class: 'btn btn-primary', type: 'submit', onPointerdown: keepFocus }, 'Ответить')));
 }
 
 function feedback(root, ctx, q) {

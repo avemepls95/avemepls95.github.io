@@ -61,6 +61,1182 @@ export const FACTS = [
     "source": "https://en.wikipedia.org/wiki/Iceland"
   },
   {
+    "id": "be-1",
+    "countryId": "be",
+    "text": "В 1990 году король этой страны Бодуэн попросил правительство признать его временно неспособным править, чтобы не подписывать закон об абортах.",
+    "source": "https://en.wikipedia.org/wiki/Baudouin_of_Belgium"
+  },
+  {
+    "id": "be-2",
+    "countryId": "be",
+    "text": "Слово «спа» пошло от названия курортного города Спа в этой стране.",
+    "source": "https://en.wikipedia.org/wiki/Spa,_Belgium"
+  },
+  {
+    "id": "be-3",
+    "countryId": "be",
+    "text": "В 1830 году зрители оперы «Немая из Портичи» вышли из театра и присоединились к восстанию, которое привело к независимости этой страны.",
+    "source": "https://en.wikipedia.org/wiki/Belgian_Revolution"
+  },
+  {
+    "id": "be-4",
+    "countryId": "be",
+    "text": "В 1885-1908 годах Свободное государство Конго в Центральной Африке было частным владением короля этой страны Леопольда II.",
+    "source": "https://en.wikipedia.org/wiki/Congo_Free_State"
+  },
+  {
+    "id": "be-5",
+    "countryId": "be",
+    "text": "Гипотезу «первичного атома», которую считают первой формулировкой теории Большого взрыва, выдвинул священник и физик из этой страны Жорж Леметр.",
+    "source": "https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre"
+  },
+  {
+    "id": "be-6",
+    "countryId": "be",
+    "text": "Саксофон изобрёл уроженец этой страны Адольф Сакс, он запатентовал инструмент в 1846 году.",
+    "source": "https://en.wikipedia.org/wiki/Adolphe_Sax"
+  },
+  {
+    "id": "be-7",
+    "countryId": "be",
+    "text": "Муниципалитет Барле-Хертог этой страны включает 22 анклава внутри Нидерландов, а внутри них лежат ещё семь нидерландских анклавов.",
+    "source": "https://en.wikipedia.org/wiki/Baarle-Hertog"
+  },
+  {
+    "id": "be-8",
+    "countryId": "be",
+    "text": "В этой стране действует старейшая из сохранившихся систем обязательного голосования. Для мужчин её ввели в 1893 году, для женщин в 1948 году.",
+    "source": "https://en.wikipedia.org/wiki/Compulsory_voting"
+  },
+  {
+    "id": "be-9",
+    "countryId": "be",
+    "text": "Эта страна второй в мире разрешила однополые браки, в 2003 году, вслед за Нидерландами.",
+    "source": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_Belgium"
+  },
+  {
+    "id": "nl-1",
+    "countryId": "nl",
+    "text": "Высшая точка этой страны, вулкан Маунт-Синери высотой 870 м, находится на острове Саба в Карибском море.",
+    "source": "https://en.wikipedia.org/wiki/Mount_Scenery"
+  },
+  {
+    "id": "nl-2",
+    "countryId": "nl",
+    "text": "Землю, открытую Абелем Тасманом, картографы этой страны назвали в честь своей провинции Зеландия. Так появилось название Новая Зеландия.",
+    "source": "https://en.wikipedia.org/wiki/New_Zealand"
+  },
+  {
+    "id": "nl-3",
+    "countryId": "nl",
+    "text": "В 1608 году очковый мастер из Мидделбурга Ханс Липперсгей подал в этой стране первую известную заявку на патент на телескоп.",
+    "source": "https://en.wikipedia.org/wiki/Hans_Lipperhey"
+  },
+  {
+    "id": "nl-4",
+    "countryId": "nl",
+    "text": "В 1630-х годах в этой стране цены на луковицы тюльпанов взлетели до небывалых высот. Эту «тюльпаноманию» обычно считают первым в истории спекулятивным пузырём.",
+    "source": "https://en.wikipedia.org/wiki/Tulip_mania"
+  },
+  {
+    "id": "nl-5",
+    "countryId": "nl",
+    "text": "Гимн этой страны «Вильгельмус» известен как минимум с 1572 года и считается старейшим из национальных гимнов, которые исполняются сегодня.",
+    "source": "https://en.wikipedia.org/wiki/Wilhelmus"
+  },
+  {
+    "id": "nl-6",
+    "countryId": "nl",
+    "text": "Эта страна первой в мире разрешила однополые браки, 1 апреля 2001 года.",
+    "source": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_the_Netherlands"
+  },
+  {
+    "id": "nl-7",
+    "countryId": "nl",
+    "text": "Самая молодая провинция этой страны, Флеволанд, образована в 1986 году на земле, которую почти целиком отвоевали у воды в 1950-1960-х годах.",
+    "source": "https://en.wikipedia.org/wiki/Flevoland"
+  },
+  {
+    "id": "nl-8",
+    "countryId": "nl",
+    "text": "Правительство, парламент и Верховный суд этой страны находятся в Гааге, хотя официальная столица - другой город.",
+    "source": "https://en.wikipedia.org/wiki/The_Hague"
+  },
+  {
+    "id": "nl-9",
+    "countryId": "nl",
+    "text": "Около четверти территории этой страны (26%) лежит ниже уровня моря.",
+    "source": "https://en.wikipedia.org/wiki/Netherlands"
+  },
+  {
+    "id": "lu-1",
+    "countryId": "lu",
+    "text": "В 1867 году король Нидерландов Виллем III согласился продать эту страну Франции за 5 млн гульденов, и спор из-за сделки едва не привёл к войне.",
+    "source": "https://en.wikipedia.org/wiki/Luxembourg_Crisis"
+  },
+  {
+    "id": "lu-2",
+    "countryId": "lu",
+    "text": "В 2008 году монарх этой страны отказался утвердить закон об эвтаназии, и после этого законам перестало требоваться его согласие.",
+    "source": "https://en.wikipedia.org/wiki/Henri,_Grand_Duke_of_Luxembourg"
+  },
+  {
+    "id": "lu-3",
+    "countryId": "lu",
+    "text": "Эта страна первой в мире сделала общественный транспорт бесплатным на всей своей территории, с 29 февраля 2020 года. Платным остался только первый класс в поездах.",
+    "source": "https://en.wikipedia.org/wiki/Free_public_transport"
+  },
+  {
+    "id": "lu-4",
+    "countryId": "lu",
+    "text": "В городе Эхтернах этой страны каждый год проходит «прыгающая процессия» в честь святого Виллиброрда. В 2010 году ЮНЕСКО внесла её в список нематериального наследия.",
+    "source": "https://en.wikipedia.org/wiki/Dancing_procession_of_Echternach"
+  },
+  {
+    "id": "lu-5",
+    "countryId": "lu",
+    "text": "Эта страна пять раз побеждала на «Евровидении», а в 2024 году вернулась на конкурс впервые за 31 год.",
+    "source": "https://en.wikipedia.org/wiki/Luxembourg_in_the_Eurovision_Song_Contest"
+  },
+  {
+    "id": "lu-6",
+    "countryId": "lu",
+    "text": "Шенгенское соглашение подписали в 1985 году на борту теплохода на Мозеле, у деревни Шенген в этой стране.",
+    "source": "https://en.wikipedia.org/wiki/Schengen_Agreement"
+  },
+  {
+    "id": "lu-7",
+    "countryId": "lu",
+    "text": "Национальный девиз этой страны переводится как «Мы хотим остаться теми, кто мы есть».",
+    "source": "https://en.wikipedia.org/wiki/Mir_w%C3%ABlle_bleiwe_wat_mir_sinn"
+  },
+  {
+    "id": "lu-8",
+    "countryId": "lu",
+    "text": "Эта страна - единственное в мире суверенное великое герцогство.",
+    "source": "https://en.wikipedia.org/wiki/Luxembourg"
+  },
+  {
+    "id": "lu-9",
+    "countryId": "lu",
+    "text": "С 1815 по 1890 год монархом этой страны был король Нидерландов. После кризиса престолонаследия у страны появилась собственная династия.",
+    "source": "https://en.wikipedia.org/wiki/Luxembourg"
+  },
+  {
+    "id": "de-1",
+    "countryId": "de",
+    "text": "В 1950 году в Вуппертале этой страны слониха Туффи выпала из вагона подвесной железной дороги в реку с высоты 12 метров и отделалась лёгкими травмами.",
+    "source": "https://en.wikipedia.org/wiki/Tuffi"
+  },
+  {
+    "id": "de-2",
+    "countryId": "de",
+    "text": "Империю этой страны провозгласили 18 января 1871 года во Франции, в Зеркальном зале Версальского дворца.",
+    "source": "https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire"
+  },
+  {
+    "id": "de-3",
+    "countryId": "de",
+    "text": "Деревня Бюзинген этой страны со всех сторон окружена Швейцарией, и жители платят там в основном швейцарскими франками.",
+    "source": "https://en.wikipedia.org/wiki/B%C3%BCsingen_am_Hochrhein"
+  },
+  {
+    "id": "de-4",
+    "countryId": "de",
+    "text": "В 1890 году эта страна получила от Британии архипелаг Гельголанд в Северном море, а взамен признала британскую власть над Занзибаром.",
+    "source": "https://en.wikipedia.org/wiki/Heligoland%E2%80%93Zanzibar_Treaty"
+  },
+  {
+    "id": "de-5",
+    "countryId": "de",
+    "text": "Неандертальцы названы по долине Неандерталь в этой стране, где в 1856 году нашли первые признанные останки этого вида.",
+    "source": "https://en.wikipedia.org/wiki/Neanderthal"
+  },
+  {
+    "id": "de-6",
+    "countryId": "de",
+    "text": "Гимн этой страны исполняют на мелодию, которую Йозеф Гайдн написал в 1797 году ко дню рождения императора Франца II, причём официальным гимном служит только третий куплет.",
+    "source": "https://en.wikipedia.org/wiki/Deutschlandlied"
+  },
+  {
+    "id": "de-7",
+    "countryId": "de",
+    "text": "Напиток Fanta появился в этой стране во время Второй мировой войны, когда из-за американского эмбарго сюда перестал поступать сироп для кока-колы.",
+    "source": "https://en.wikipedia.org/wiki/Fanta"
+  },
+  {
+    "id": "de-8",
+    "countryId": "de",
+    "text": "Кёльнский собор после завершения в 1880 году четыре года был самым высоким зданием мира, пока не достроили монумент Вашингтона.",
+    "source": "https://en.wikipedia.org/wiki/Cologne_Cathedral"
+  },
+  {
+    "id": "de-9",
+    "countryId": "de",
+    "text": "Первый в мире работающий программируемый полностью автоматический цифровой компьютер Z3 построил в этой стране Конрад Цузе в 1941 году.",
+    "source": "https://en.wikipedia.org/wiki/Z3_(computer)"
+  },
+  {
+    "id": "ch-1",
+    "countryId": "ch",
+    "text": "Женщины этой страны получили право голоса на общегосударственных выборах только в 1971 году, а в кантоне Аппенцелль-Иннерроден полное право голоса им дал лишь суд в 1990 году.",
+    "source": "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_Switzerland"
+  },
+  {
+    "id": "ch-2",
+    "countryId": "ch",
+    "text": "Официальной столицы у этой страны нет. Город, который фактически служит столицей, называют «федеральным городом».",
+    "source": "https://en.wikipedia.org/wiki/Bern"
+  },
+  {
+    "id": "ch-3",
+    "countryId": "ch",
+    "text": "Главой этой страны считается коллектив из семи человек, а пост президента каждый год переходит к другому из них.",
+    "source": "https://en.wikipedia.org/wiki/Federal_Council_(Switzerland)"
+  },
+  {
+    "id": "ch-4",
+    "countryId": "ch",
+    "text": "По закону этой страны у каждого жителя должно быть место в убежище от радиоактивных осадков недалеко от дома.",
+    "source": "https://en.wikipedia.org/wiki/Fallout_shelter"
+  },
+  {
+    "id": "ch-5",
+    "countryId": "ch",
+    "text": "Абсент придумали в этой стране в конце XVIII века. В 1910 году его здесь запретили, запрет даже записали в конституцию, и снова легальным напиток стал только в 2005 году.",
+    "source": "https://en.wikipedia.org/wiki/Absinthe"
+  },
+  {
+    "id": "ch-6",
+    "countryId": "ch",
+    "text": "Застёжку-липучку придумал в 1941 году инженер из этой страны Жорж де Местраль, когда разглядел репьи, цеплявшиеся к его одежде и шерсти его собаки.",
+    "source": "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+  },
+  {
+    "id": "ch-7",
+    "countryId": "ch",
+    "text": "Эта страна вступила в ООН только в 2002 году, хотя на её территории находятся штаб-квартиры или офисы ВОЗ, ВТО, МОТ и самой ООН.",
+    "source": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "id": "ch-8",
+    "countryId": "ch",
+    "text": "В этой стране находится самый длинный железнодорожный и самый глубокий транспортный тоннель мира длиной 57 км, открытый в 2016 году.",
+    "source": "https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel"
+  },
+  {
+    "id": "ch-9",
+    "countryId": "ch",
+    "text": "Ретороманский язык с 1938 года признан одним из национальных языков этой страны.",
+    "source": "https://en.wikipedia.org/wiki/Romansh_language"
+  },
+  {
+    "id": "at-1",
+    "countryId": "at",
+    "text": "В этой стране достроили атомную электростанцию, но после референдума 1978 года её так и не запустили.",
+    "source": "https://en.wikipedia.org/wiki/Zwentendorf_Nuclear_Power_Plant"
+  },
+  {
+    "id": "at-2",
+    "countryId": "at",
+    "text": "Рождественскую песню «Тихая ночь» впервые исполнили в Сочельник 1818 года в церкви деревни Оберндорф, которая сейчас находится в этой стране.",
+    "source": "https://en.wikipedia.org/wiki/Silent_Night"
+  },
+  {
+    "id": "at-3",
+    "countryId": "at",
+    "text": "Деревня в этой стране в 2021 году сменила название на Fugging, потому что прежнее совпадало с английским ругательством и привлекало толпы туристов.",
+    "source": "https://en.wikipedia.org/wiki/Fugging,_Upper_Austria"
+  },
+  {
+    "id": "at-4",
+    "countryId": "at",
+    "text": "Деревня Гальштат в этой стране дала имя археологической культуре раннего железного века, а в Китае построили её полноразмерную копию.",
+    "source": "https://en.wikipedia.org/wiki/Hallstatt"
+  },
+  {
+    "id": "at-5",
+    "countryId": "at",
+    "text": "В 1938 году нацисты переименовали эту страну в Остмарк, а с 1942 года она называлась Альпийские и Дунайские рейхсгау.",
+    "source": "https://en.wikipedia.org/wiki/Austria"
+  },
+  {
+    "id": "at-6",
+    "countryId": "at",
+    "text": "Самоназвание этой страны происходит от древневерхненемецкого слова Ostarrîchi («восточное владение»), записанного в грамоте 996 года.",
+    "source": "https://en.wikipedia.org/wiki/Name_of_Austria"
+  },
+  {
+    "id": "at-7",
+    "countryId": "at",
+    "text": "В этой стране находится старейший из действующих зоопарков мира, основанный в 1752 году.",
+    "source": "https://en.wikipedia.org/wiki/Schönbrunn_Zoo"
+  },
+  {
+    "id": "at-8",
+    "countryId": "at",
+    "text": "В этой стране находится Айсризенвельт, крупнейшая в мире ледяная пещера. Её ходы тянутся более чем на 42 км, но льдом покрыт только первый километр.",
+    "source": "https://en.wikipedia.org/wiki/Eisriesenwelt"
+  },
+  {
+    "id": "at-9",
+    "countryId": "at",
+    "text": "В этой стране работает Испанская школа верховой езды, названная так по испанским лошадям, которые стали одной из основ липицианской породы.",
+    "source": "https://en.wikipedia.org/wiki/Spanish_Riding_School"
+  },
+  {
+    "id": "at-10",
+    "countryId": "at",
+    "text": "Энергетик Red Bull сделан по образцу тайского напитка Krating Daeng. В 1984 году компанию основали автор этого напитка и предприниматель из этой страны Дитрих Матешиц.",
+    "source": "https://en.wikipedia.org/wiki/Red_Bull"
+  },
+  {
+    "id": "li-1",
+    "countryId": "li",
+    "text": "По популярной легенде, в 1866 году армия этой страны ушла на войну в составе 80 человек, а вернулась в составе 81. В 1868 году армию распустили.",
+    "source": "https://en.wikipedia.org/wiki/Military_history_of_Liechtenstein"
+  },
+  {
+    "id": "li-2",
+    "countryId": "li",
+    "text": "Корону на флаг этой страны добавили в 1937 году, после того как на Олимпиаде 1936 года выяснилось, что её флаг совпадает с флагом Гаити.",
+    "source": "https://en.wikipedia.org/wiki/Flag_of_Liechtenstein"
+  },
+  {
+    "id": "li-3",
+    "countryId": "li",
+    "text": "Гимн этой страны поют на мелодию британского God Save the King со своими словами. Это последний действующий национальный гимн, который заимствовал эту мелодию.",
+    "source": "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein"
+  },
+  {
+    "id": "li-4",
+    "countryId": "li",
+    "text": "Эта страна одна из двух в мире, которые окружены только странами без выхода к морю. Вторая такая страна - Узбекистан.",
+    "source": "https://en.wikipedia.org/wiki/Liechtenstein"
+  },
+  {
+    "id": "li-5",
+    "countryId": "li",
+    "text": "Женщины этой страны получили право голоса только в 1984 году, позже, чем в любой другой стране Европы.",
+    "source": "https://en.wikipedia.org/wiki/Liechtenstein"
+  },
+  {
+    "id": "li-6",
+    "countryId": "li",
+    "text": "В 2007 году отряд из 170 швейцарских пехотинцев заблудился на учениях и по ошибке зашёл на 1,5 км вглубь этой страны.",
+    "source": "https://en.wikipedia.org/wiki/Liechtenstein"
+  },
+  {
+    "id": "li-7",
+    "countryId": "li",
+    "text": "Правящий князь впервые поселился в этой стране постоянно только в 1938 году.",
+    "source": "https://en.wikipedia.org/wiki/Franz_Joseph_II,_Prince_of_Liechtenstein"
+  },
+  {
+    "id": "li-8",
+    "countryId": "li",
+    "text": "Правящий род этой страны носит имя своего родового замка, который стоит в Нижней Австрии рядом с Веной.",
+    "source": "https://en.wikipedia.org/wiki/Liechtenstein_Castle"
+  },
+  {
+    "id": "li-9",
+    "countryId": "li",
+    "text": "Из-за спора о послевоенных декретах Бенеша эта страна установила дипломатические отношения с Чехией и Словакией только в 2009 году.",
+    "source": "https://en.wikipedia.org/wiki/Liechtenstein"
+  },
+  {
+    "id": "mc-1",
+    "countryId": "mc",
+    "text": "В 1297 году представитель рода, который правит этой страной до сих пор, захватил местную крепость, переодевшись монахом-францисканцем. В память об этом на гербе страны изображены два монаха с мечами.",
+    "source": "https://en.wikipedia.org/wiki/François_Grimaldi"
+  },
+  {
+    "id": "mc-2",
+    "countryId": "mc",
+    "text": "Гражданам этой страны запрещено входить в игровые залы её знаменитого казино.",
+    "source": "https://en.wikipedia.org/wiki/Monte_Carlo_Casino"
+  },
+  {
+    "id": "mc-3",
+    "countryId": "mc",
+    "text": "В XIX веке эта страна уступила Франции города Ментона и Рокбрюн, которые составляли около 95% её территории. Передачу закрепил договор 1861 года.",
+    "source": "https://en.wikipedia.org/wiki/Monaco"
+  },
+  {
+    "id": "mc-4",
+    "countryId": "mc",
+    "text": "В начале 1960-х годов Шарль де Голль устроил этой стране блокаду, недовольный тем, что она стала налоговым убежищем для богатых французов.",
+    "source": "https://en.wikipedia.org/wiki/Monaco"
+  },
+  {
+    "id": "mc-5",
+    "countryId": "mc",
+    "text": "До 1860 года официальным языком этой страны был итальянский, после чего его сменил французский.",
+    "source": "https://en.wikipedia.org/wiki/Monaco"
+  },
+  {
+    "id": "mc-6",
+    "countryId": "mc",
+    "text": "В 1956 году князь этой страны женился на американской киноактрисе Грейс Келли.",
+    "source": "https://en.wikipedia.org/wiki/Monaco"
+  },
+  {
+    "id": "mc-7",
+    "countryId": "mc",
+    "text": "По Страбону, название этой страны происходит от греческого прозвища Геракла, означающего «одинокий». Здесь стоял храм Геракла.",
+    "source": "https://en.wikipedia.org/wiki/Monaco"
+  },
+  {
+    "id": "mc-8",
+    "countryId": "mc",
+    "text": "Океанографический музей этой страны с 1957 по 1988 год возглавлял Жак-Ив Кусто.",
+    "source": "https://en.wikipedia.org/wiki/Oceanographic_Museum"
+  },
+  {
+    "id": "mc-9",
+    "countryId": "mc",
+    "text": "Район Фонвьей в этой стране почти целиком построен на искусственно намытой земле.",
+    "source": "https://en.wikipedia.org/wiki/Fontvieille,_Monaco"
+  },
+  {
+    "id": "mk-1",
+    "countryId": "mk",
+    "text": "Деревня Вевчани в этой стране в 1991 году объявила себя независимой республикой и выпустила собственные красные паспорта.",
+    "source": "https://en.wikipedia.org/wiki/Republic_of_Vev%C4%8Dani"
+  },
+  {
+    "id": "mk-2",
+    "countryId": "mk",
+    "text": "В 1903 году повстанцы провозгласили в городе Крушево этой страны республику, которая продержалась всего 10 дней.",
+    "source": "https://en.wikipedia.org/wiki/Kru%C5%A1evo_Republic"
+  },
+  {
+    "id": "mk-3",
+    "countryId": "mk",
+    "text": "В 1994-1995 годах Греция держала эту страну под экономическим эмбарго, добиваясь среди прочего, чтобы та убрала со своего флага «солнце Вергины».",
+    "source": "https://en.wikipedia.org/wiki/Flag_of_North_Macedonia"
+  },
+  {
+    "id": "mk-4",
+    "countryId": "mk",
+    "text": "После землетрясения 1963 года конкурс на проект восстановления центра столицы этой страны выиграла команда японского архитектора Кэндзо Тангэ.",
+    "source": "https://en.wikipedia.org/wiki/Reconstruction_of_Skopje_1963"
+  },
+  {
+    "id": "mk-5",
+    "countryId": "mk",
+    "text": "Мать Тереза родилась в 1910 году в городе, который сейчас является столицей этой страны.",
+    "source": "https://en.wikipedia.org/wiki/Mother_Teresa"
+  },
+  {
+    "id": "mk-6",
+    "countryId": "mk",
+    "text": "Первым лауреатом премии «Золотой венец» поэтического фестиваля в городе Струга этой страны в 1966 году стал Роберт Рождественский.",
+    "source": "https://en.wikipedia.org/wiki/Struga_Poetry_Evenings"
+  },
+  {
+    "id": "mk-7",
+    "countryId": "mk",
+    "text": "В 2019 году эта страна сменила название по Преспанскому соглашению с Грецией.",
+    "source": "https://en.wikipedia.org/wiki/North_Macedonia"
+  },
+  {
+    "id": "mk-8",
+    "countryId": "mk",
+    "text": "В городе Охрид этой страны в 886 году святой Климент Охридский основал книжную школу, которая участвовала в распространении кириллицы.",
+    "source": "https://en.wikipedia.org/wiki/North_Macedonia"
+  },
+  {
+    "id": "mk-9",
+    "countryId": "mk",
+    "text": "В городе Охрид этой страны делают «жемчуг» из чешуи рыбы, живущей в Охридском озере.",
+    "source": "https://www.euronews.com/2021/05/27/ohrid-jewelry-would-you-wear-jewelry-made-out-of-fish-skin"
+  },
+  {
+    "id": "mk-10",
+    "countryId": "mk",
+    "text": "В деревне Галичник этой страны каждый год в июле проходит фестиваль, на котором выбранная пара по-настоящему женится по старинному обряду.",
+    "source": "https://en.wikipedia.org/wiki/Gali%C4%8Dnik_Wedding_Festival"
+  },
+  {
+    "id": "al-1",
+    "countryId": "al",
+    "text": "За 1939-1945 годы еврейское население этой страны выросло в 11 раз.",
+    "source": "https://en.wikipedia.org/wiki/The_Holocaust_in_Albania"
+  },
+  {
+    "id": "al-2",
+    "countryId": "al",
+    "text": "В 1976 году эта страна стала первым в мире государством, где атеизм закрепили в конституции.",
+    "source": "https://en.wikipedia.org/wiki/Albania"
+  },
+  {
+    "id": "al-3",
+    "countryId": "al",
+    "text": "Ахмет Зогу был в этой стране премьер-министром и президентом, а в 1928 году провозгласил её монархией и сам стал королём Зогом I.",
+    "source": "https://en.wikipedia.org/wiki/Zog_I"
+  },
+  {
+    "id": "al-4",
+    "countryId": "al",
+    "text": "В 1968 году эта страна в знак протеста против вторжения в Чехословакию официально вышла из Варшавского договора.",
+    "source": "https://en.wikipedia.org/wiki/Warsaw_Pact"
+  },
+  {
+    "id": "al-5",
+    "countryId": "al",
+    "text": "Сами жители называют эту страну Шкиперия, и это название широко толкуют как «Страна орлов».",
+    "source": "https://en.wikipedia.org/wiki/Albania"
+  },
+  {
+    "id": "al-6",
+    "countryId": "al",
+    "text": "При коммунистическом режиме с 1960-х по 1980-е годы в этой стране построили более 170 тысяч бетонных бункеров.",
+    "source": "https://en.wikipedia.org/wiki/Bunkers_in_Albania"
+  },
+  {
+    "id": "al-7",
+    "countryId": "al",
+    "text": "В 1997 году крах финансовых пирамид привёл эту страну к массовым беспорядкам, в которых погибли более 2000 человек.",
+    "source": "https://en.wikipedia.org/wiki/1997_Albanian_civil_unrest"
+  },
+  {
+    "id": "al-8",
+    "countryId": "al",
+    "text": "Город Гирокастра в этой стране - родина диктатора Энвера Ходжи и писателя Исмаиля Кадаре.",
+    "source": "https://en.wikipedia.org/wiki/Gjirokast%C3%ABr"
+  },
+  {
+    "id": "al-9",
+    "countryId": "al",
+    "text": "В 2023 году в этой стране на реке Вьоса создали первый в Европе национальный парк «дикой реки».",
+    "source": "https://en.wikipedia.org/wiki/Vjosa_Wild_River_National_Park"
+  },
+  {
+    "id": "gr-1",
+    "countryId": "gr",
+    "text": "На земли монашеского сообщества горы Афон в этой стране женщинам запрещено входить по закону и по религиозной традиции.",
+    "source": "https://en.wikipedia.org/wiki/Mount_Athos"
+  },
+  {
+    "id": "gr-2",
+    "countryId": "gr",
+    "text": "У острова Антикитера этой страны в 1901 году с затонувшего корабля подняли древнейший известный аналоговый компьютер.",
+    "source": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+  },
+  {
+    "id": "gr-3",
+    "countryId": "gr",
+    "text": "На монете этой страны номиналом 2 евро изображено похищение Европы Зевсом в образе быка.",
+    "source": "https://en.wikipedia.org/wiki/Greek_euro_coins"
+  },
+  {
+    "id": "gr-4",
+    "countryId": "gr",
+    "text": "Остров Спиналонга этой страны в 1904-1957 годах был колонией для больных проказой, и местные прозвали его «островом живых мертвецов».",
+    "source": "https://en.wikipedia.org/wiki/Spinalonga"
+  },
+  {
+    "id": "gr-5",
+    "countryId": "gr",
+    "text": "Канал через Коринфский перешеек в этой стране начали рыть ещё при императоре Нероне в 67 году, а достроили только в 1893 году.",
+    "source": "https://en.wikipedia.org/wiki/Corinth_Canal"
+  },
+  {
+    "id": "gr-6",
+    "countryId": "gr",
+    "text": "Поэт Байрон отправился воевать за независимость этой страны от Османской империи и умер от лихорадки в 1824 году в Месолонгионе.",
+    "source": "https://en.wikipedia.org/wiki/Lord_Byron"
+  },
+  {
+    "id": "gr-7",
+    "countryId": "gr",
+    "text": "Первым королём этой страны в 1832 году стал баварский принц Оттон.",
+    "source": "https://en.wikipedia.org/wiki/Otto_of_Greece"
+  },
+  {
+    "id": "gr-8",
+    "countryId": "gr",
+    "text": "Остров Гавдос этой страны считается самым южным островом Европы, если относить Кипр к Азии.",
+    "source": "https://en.wikipedia.org/wiki/Gavdos"
+  },
+  {
+    "id": "gr-9",
+    "countryId": "gr",
+    "text": "У этой страны самая длинная береговая линия в Средиземноморье.",
+    "source": "https://en.wikipedia.org/wiki/Greece"
+  },
+  {
+    "id": "gr-10",
+    "countryId": "gr",
+    "text": "В 1981 году эта страна стала десятым членом объединения, которое сейчас называется Евросоюзом.",
+    "source": "https://en.wikipedia.org/wiki/Greece"
+  },
+  {
+    "id": "xk-1",
+    "countryId": "xk",
+    "text": "Название этой страны происходит от сербского слова, означающего «чёрный дрозд».",
+    "source": "https://en.wikipedia.org/wiki/Kosovo"
+  },
+  {
+    "id": "xk-2",
+    "countryId": "xk",
+    "text": "До 2017 года мобильные операторы этой страны пользовались телефонными кодами Монако (+377) и Словении (+386).",
+    "source": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Kosovo"
+  },
+  {
+    "id": "xk-3",
+    "countryId": "xk",
+    "text": "Кроме этой страны, карту своей территории на государственном флаге изображает только Кипр.",
+    "source": "https://en.wikipedia.org/wiki/Flag_of_Kosovo"
+  },
+  {
+    "id": "xk-4",
+    "countryId": "xk",
+    "text": "Первую олимпийскую медаль в истории этой страны, сразу золотую, в 2016 году в Рио выиграла дзюдоистка Майлинда Кельменди.",
+    "source": "https://en.wikipedia.org/wiki/Majlinda_Kelmendi"
+  },
+  {
+    "id": "xk-5",
+    "countryId": "xk",
+    "text": "В столице этой страны есть бульвар Билла Клинтона, где в 2009 году открыли его статую высотой 3,4 м.",
+    "source": "https://en.wikipedia.org/wiki/Bill_Clinton_Boulevard"
+  },
+  {
+    "id": "xk-6",
+    "countryId": "xk",
+    "text": "В столице этой страны стоит монумент в виде английского слова NEWBORN, открытый в 2008 году в день провозглашения независимости. Его не раз перекрашивали по-новому.",
+    "source": "https://en.wikipedia.org/wiki/Newborn_monument"
+  },
+  {
+    "id": "xk-7",
+    "countryId": "xk",
+    "text": "Политика из этой страны Ибрагима Ругову за стратегию ненасильственного сопротивления прозвали «балканским Ганди».",
+    "source": "https://en.wikipedia.org/wiki/Ibrahim_Rugova"
+  },
+  {
+    "id": "xk-8",
+    "countryId": "xk",
+    "text": "В 1878 году в городе Призрен этой страны основали Призренскую лигу, политическую организацию албанцев.",
+    "source": "https://en.wikipedia.org/wiki/League_of_Prizren"
+  },
+  {
+    "id": "tr-1",
+    "countryId": "tr",
+    "text": "Каменные столбы Гёбекли-Тепе в этой стране считаются древнейшими известными мегалитами в мире; поселение там существовало примерно с 9500 года до н. э.",
+    "source": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+  },
+  {
+    "id": "tr-2",
+    "countryId": "tr",
+    "text": "Святой Николай, который, по преданию, тайно дарил подарки и стал прообразом Санта-Клауса, был родом из приморского города Патара на территории этой страны.",
+    "source": "https://en.wikipedia.org/wiki/Saint_Nicholas"
+  },
+  {
+    "id": "tr-3",
+    "countryId": "tr",
+    "text": "Турнир по масляной борьбе Кыркпынар, который проходит в этой стране, по Книге рекордов Гиннесса считается старейшим из проводимых до сих пор спортивных состязаний в мире.",
+    "source": "https://en.wikipedia.org/wiki/K%C4%B1rkp%C4%B1nar"
+  },
+  {
+    "id": "tr-4",
+    "countryId": "tr",
+    "text": "Жители деревни Кушкёй в этой стране до сих пор переговариваются свистом на так называемом «птичьем языке» (куш дили).",
+    "source": "https://en.wikipedia.org/wiki/Whistled_language"
+  },
+  {
+    "id": "tr-5",
+    "countryId": "tr",
+    "text": "Подземный город Деринкую в этой стране уходит вглубь примерно на 85 м и мог укрыть до 20 тысяч человек вместе со скотом и запасами еды.",
+    "source": "https://en.wikipedia.org/wiki/Derinkuyu_underground_city"
+  },
+  {
+    "id": "tr-6",
+    "countryId": "tr",
+    "text": "Закон 1934 года обязал всех граждан этой страны взять постоянные наследуемые фамилии; в Османской империи фамилии при наречении не использовались.",
+    "source": "https://en.wikipedia.org/wiki/Surname_Law_(Turkey)"
+  },
+  {
+    "id": "tr-7",
+    "countryId": "tr",
+    "text": "Озеро Ван в этой стране - крупнейшее на Земле содовое (щелочное) озеро.",
+    "source": "https://science.nasa.gov/earth/earth-observatory/lake-van-turkey-92591"
+  },
+  {
+    "id": "tr-8",
+    "countryId": "tr",
+    "text": "На территории этой страны стояли два из семи чудес света: храм Артемиды в Эфесе и Мавзолей в Галикарнасе.",
+    "source": "https://en.wikipedia.org/wiki/Seven_Wonders_of_the_Ancient_World"
+  },
+  {
+    "id": "tr-9",
+    "countryId": "tr",
+    "text": "В 1928 году в этой стране отменили османский алфавит на основе арабского письма и ввели алфавит на латинице.",
+    "source": "https://en.wikipedia.org/wiki/Turkish_alphabet_reform"
+  },
+  {
+    "id": "tr-10",
+    "countryId": "tr",
+    "text": "В 2023 году эта страна вырастила 57,7% мирового урожая фундука.",
+    "source": "https://en.wikipedia.org/wiki/Hazelnut"
+  },
+  {
+    "id": "cy-1",
+    "countryId": "cy",
+    "text": "Название меди в латыни (cuprum) и в английском (copper) происходит от названия этого острова.",
+    "source": "https://en.wikipedia.org/wiki/Copper"
+  },
+  {
+    "id": "cy-2",
+    "countryId": "cy",
+    "text": "В поселении Шиллурокамбос в этой стране нашли захоронение человека и кошки возрастом около 9500 лет. Это древнейшее известное свидетельство приручения кошек.",
+    "source": "https://en.wikipedia.org/wiki/Shillourokambos"
+  },
+  {
+    "id": "cy-3",
+    "countryId": "cy",
+    "text": "Десертное вино коммандария из этой страны считается старейшим в мире вином с собственным названием, которое производят до сих пор.",
+    "source": "https://en.wikipedia.org/wiki/Commandaria"
+  },
+  {
+    "id": "cy-4",
+    "countryId": "cy",
+    "text": "Действие шекспировской трагедии «Отелло» начинается в Венеции, а затем переносится на этот остров.",
+    "source": "https://en.wikipedia.org/wiki/Othello"
+  },
+  {
+    "id": "cy-5",
+    "countryId": "cy",
+    "text": "На одном острове с этой страной находится британская заморская территория Акротири и Декелия с британскими военными базами.",
+    "source": "https://en.wikipedia.org/wiki/Akrotiri_and_Dhekelia"
+  },
+  {
+    "id": "cy-6",
+    "countryId": "cy",
+    "text": "Основатель стоицизма Зенон был родом из города Китион в этой стране.",
+    "source": "https://en.wikipedia.org/wiki/Zeno_of_Citium"
+  },
+  {
+    "id": "cy-7",
+    "countryId": "cy",
+    "text": "В 1191 году английский король Ричард Львиное Сердце обвенчался с Беренгарией Наваррской в городе Лимасол на этом острове.",
+    "source": "https://en.wikipedia.org/wiki/Berengaria_of_Navarre"
+  },
+  {
+    "id": "cy-8",
+    "countryId": "cy",
+    "text": "По мифологической традиции, у скалы Петра-ту-Ромиу у берегов этой страны родилась Афродита.",
+    "source": "https://en.wikipedia.org/wiki/Petra_tou_Romiou"
+  },
+  {
+    "id": "ge-1",
+    "countryId": "ge",
+    "text": "Многоголосная народная песня «Чакруло» из этой страны - одно из 27 музыкальных произведений, записанных на золотые пластинки «Вояджеров».",
+    "source": "https://en.wikipedia.org/wiki/Chakrulo"
+  },
+  {
+    "id": "ge-2",
+    "countryId": "ge",
+    "text": "Черепа из Дманиси в этой стране датированы 1,8 млн лет назад и считаются древнейшими датированными человеческими останками в Евразии.",
+    "source": "https://en.wikipedia.org/wiki/Dmanisi"
+  },
+  {
+    "id": "ge-3",
+    "countryId": "ge",
+    "text": "Древнейшие известные следы виноградного вина (около 6000 года до н. э.) найдены в этой стране.",
+    "source": "https://en.wikipedia.org/wiki/History_of_wine"
+  },
+  {
+    "id": "ge-4",
+    "countryId": "ge",
+    "text": "Правительница этой страны Тамара носила титул «мепе» (царь), ведь женский титул «дедопали» относился только к жене царя.",
+    "source": "https://en.wikipedia.org/wiki/Mepe"
+  },
+  {
+    "id": "ge-5",
+    "countryId": "ge",
+    "text": "На западе этой страны находилась древняя Колхида, куда, по греческому мифу, аргонавты плыли за золотым руном.",
+    "source": "https://en.wikipedia.org/wiki/Colchis"
+  },
+  {
+    "id": "ge-6",
+    "countryId": "ge",
+    "text": "Столицу этой страны назвали «тёплым местом» из-за многочисленных серных горячих источников.",
+    "source": "https://en.wikipedia.org/wiki/Tbilisi"
+  },
+  {
+    "id": "ge-7",
+    "countryId": "ge",
+    "text": "Язык этой страны пишут тремя алфавитами (мргвловани, нусхури и мхедрули), и все они используются до сих пор; в 2016 году эту традицию внесли в список ЮНЕСКО.",
+    "source": "https://ich.unesco.org/en/RL/living-culture-of-three-georgian-alphabets-knowledge-skills-and-practice-01205"
+  },
+  {
+    "id": "ge-8",
+    "countryId": "ge",
+    "text": "Село Ушгули в этой стране на высоте около 2100 м - одно из самых высокогорных постоянно населённых поселений Европы.",
+    "source": "https://en.wikipedia.org/wiki/Ushguli"
+  },
+  {
+    "id": "am-1",
+    "countryId": "am",
+    "text": "В пещере Арени-1 в этой стране нашли кожаный башмак возрастом около 5500 лет - древнейшую известную кожаную обувь в мире.",
+    "source": "https://en.wikipedia.org/wiki/Areni-1_shoe"
+  },
+  {
+    "id": "am-2",
+    "countryId": "am",
+    "text": "Эта страна первой в мире сделала шахматы обязательным предметом в школах (с 2011/12 учебного года).",
+    "source": "https://en.wikipedia.org/wiki/Chess_in_Armenia"
+  },
+  {
+    "id": "am-3",
+    "countryId": "am",
+    "text": "На гербе этой страны изображена гора Арарат с Ноевым ковчегом, хотя сама гора находится на территории соседнего государства.",
+    "source": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Armenia"
+  },
+  {
+    "id": "am-4",
+    "countryId": "am",
+    "text": "Храм Гарни в этой стране - единственное сохранившееся греко-римское здание с колоннадой на территории бывшего СССР.",
+    "source": "https://en.wikipedia.org/wiki/Garni_Temple"
+  },
+  {
+    "id": "am-5",
+    "countryId": "am",
+    "text": "Название столицы этой страны происходит от урартской крепости, основанной царём Аргишти I в 782 году до н. э.",
+    "source": "https://en.wikipedia.org/wiki/Erebuni_Fortress"
+  },
+  {
+    "id": "am-6",
+    "countryId": "am",
+    "text": "Эчмиадзинский собор в этой стране, по преданию основанный в 301-303 годах, часто называют старейшим кафедральным собором в мире.",
+    "source": "https://en.wikipedia.org/wiki/Etchmiadzin_Cathedral"
+  },
+  {
+    "id": "am-7",
+    "countryId": "am",
+    "text": "Алфавит этой страны около 405 года создал языковед и церковный деятель Месроп Маштоц.",
+    "source": "https://en.wikipedia.org/wiki/Armenian_alphabet"
+  },
+  {
+    "id": "am-8",
+    "countryId": "am",
+    "text": "Эта страна считается первым государством, принявшим христианство как государственную религию (по традиции в 301 году).",
+    "source": "https://en.wikipedia.org/wiki/Christianization_of_Armenia"
+  },
+  {
+    "id": "am-9",
+    "countryId": "am",
+    "text": "Озеро Севан в этой стране - крупнейший водоём всего Кавказского региона.",
+    "source": "https://en.wikipedia.org/wiki/Lake_Sevan"
+  },
+  {
+    "id": "az-1",
+    "countryId": "az",
+    "text": "В этой стране почти 400 грязевых вулканов; по разным оценкам, это от трети до половины всех известных в мире.",
+    "source": "https://en.wikipedia.org/wiki/Mud_volcano"
+  },
+  {
+    "id": "az-2",
+    "countryId": "az",
+    "text": "В 1846 году в Биби-Эйбате на территории этой страны пробурили скважину на нефть глубиной 21 м, одну из первых современных нефтяных скважин в мире.",
+    "source": "https://en.wikipedia.org/wiki/Oil_well"
+  },
+  {
+    "id": "az-3",
+    "countryId": "az",
+    "text": "Эта страна считается первой среди стран с мусульманским большинством, где женщины получили избирательное право (в 1918 году).",
+    "source": "https://en.wikipedia.org/wiki/Women_in_Azerbaijan"
+  },
+  {
+    "id": "az-4",
+    "countryId": "az",
+    "text": "Опера «Лейли и Меджнун» Узеира Гаджибекова, впервые поставленная в 1908 году в столице этой страны, считается первой оперой мусульманского Востока.",
+    "source": "https://en.wikipedia.org/wiki/Leyli_and_Majnun_(opera)"
+  },
+  {
+    "id": "az-5",
+    "countryId": "az",
+    "text": "На склоне холма Янардаг в этой стране непрерывно горит выходящий из земли природный газ, а саму страну называют «страной огней».",
+    "source": "https://en.wikipedia.org/wiki/Yanar_Dag"
+  },
+  {
+    "id": "az-6",
+    "countryId": "az",
+    "text": "Название этой страны происходит от имени Атропата - персидского сатрапа державы Ахеменидов.",
+    "source": "https://en.wikipedia.org/wiki/Name_of_Azerbaijan"
+  },
+  {
+    "id": "az-7",
+    "countryId": "az",
+    "text": "В Гобустане в этой стране сохранилось более 6000 наскальных рисунков возрастом от 5 до 20 тысяч лет.",
+    "source": "https://en.wikipedia.org/wiki/Gobustan_National_Park"
+  },
+  {
+    "id": "az-8",
+    "countryId": "az",
+    "text": "Нобелевский лауреат по физике Лев Ландау родился в столице этой страны.",
+    "source": "https://en.wikipedia.org/wiki/Lev_Landau"
+  },
+  {
+    "id": "az-9",
+    "countryId": "az",
+    "text": "Жители высокогорного села Хыналыг в этой стране говорят на собственном хиналугском языке из северо-восточнокавказской семьи.",
+    "source": "https://en.wikipedia.org/wiki/Khinalug"
+  },
+  {
+    "id": "iq-1",
+    "countryId": "iq",
+    "text": "Банкноты этой страны, ходившие до войны в Персидском заливе 1990 года, прозвали «швейцарскими динарами»; после войны они продолжали ходить в политически изолированном Курдистане.",
+    "source": "https://en.wikipedia.org/wiki/Iraqi_Swiss_dinar"
+  },
+  {
+    "id": "iq-2",
+    "countryId": "iq",
+    "text": "Эта страна - единственная из 14 подмандатных территорий, которая получила независимость (в 1932 году), ещё находясь под юрисдикцией Лиги Наций.",
+    "source": "https://wilsoncenter.org/event/getting-out-iraq-1932"
+  },
+  {
+    "id": "iq-3",
+    "countryId": "iq",
+    "text": "Многие лингвисты считают, что название этой страны происходит от шумерского города Урук.",
+    "source": "https://en.wikipedia.org/wiki/Uruk"
+  },
+  {
+    "id": "iq-4",
+    "countryId": "iq",
+    "text": "Долина Лалиш на севере этой страны - главное святилище езидов, куда каждый езид по возможности должен хотя бы раз в жизни совершить паломничество.",
+    "source": "https://en.wikipedia.org/wiki/Lalish"
+  },
+  {
+    "id": "iq-5",
+    "countryId": "iq",
+    "text": "Большая мечеть Самарры в этой стране с 52-метровым спиральным минаретом в момент постройки (848-851 годы) была крупнейшей мечетью мира.",
+    "source": "https://en.wikipedia.org/wiki/Great_Mosque_of_Samarra"
+  },
+  {
+    "id": "iq-6",
+    "countryId": "iq",
+    "text": "Около 3100 года до н.э. в шумерском Уруке на территории этой страны могло жить до 50 тысяч человек, и он был крупнейшим городом мира того времени.",
+    "source": "https://en.wikipedia.org/wiki/Uruk"
+  },
+  {
+    "id": "iq-7",
+    "countryId": "iq",
+    "text": "Ремесло строительства мудхифа, большого арочного здания из тростника и папируса с болот на юге этой страны, в 2023 году внесено ЮНЕСКО в список нематериального наследия.",
+    "source": "https://ich.unesco.org/en/RL/traditional-craft-skills-and-arts-of-al-mudhif-building-01950"
+  },
+  {
+    "id": "iq-8",
+    "countryId": "iq",
+    "text": "Сборная этой страны по футболу впервые выиграла Кубок Азии в 2007 году, обыграв в финале трёхкратного чемпиона Саудовскую Аравию 1:0.",
+    "source": "https://en.wikipedia.org/wiki/2007_AFC_Asian_Cup"
+  },
+  {
+    "id": "iq-9",
+    "countryId": "iq",
+    "text": "Национальным блюдом этой страны часто называют масгуф - приправленного и зажаренного на огне карпа.",
+    "source": "https://en.wikipedia.org/wiki/Masgouf"
+  },
+  {
+    "id": "sa-1",
+    "countryId": "sa",
+    "text": "До июня 2018 года эта страна была единственной в мире, где женщинам по закону запрещалось водить автомобиль.",
+    "source": "https://en.wikipedia.org/wiki/Women_to_drive_movement"
+  },
+  {
+    "id": "sa-2",
+    "countryId": "sa",
+    "text": "В 2017 году эта страна дала гражданство человекоподобному роботу Софии, и робот впервые получил правовой статус личности в какой-либо стране.",
+    "source": "https://en.wikipedia.org/wiki/Sophia_(robot)"
+  },
+  {
+    "id": "sa-3",
+    "countryId": "sa",
+    "text": "В 2018 году с конкурса красоты верблюдов на фестивале имени короля Абдул-Азиза в этой стране сняли 12 животных, которым владельцы кололи ботокс.",
+    "source": "https://www.euronews.com/2018/01/25/banned-for-botox-12-camels-disqualified-from-saudi-beauty-pageant"
+  },
+  {
+    "id": "sa-4",
+    "countryId": "sa",
+    "text": "Кинотеатры в этой стране были запрещены 35 лет; первый после запрета кинотеатр открылся в апреле 2018 года.",
+    "source": "https://en.wikipedia.org/wiki/Cinema_of_Saudi_Arabia"
+  },
+  {
+    "id": "sa-5",
+    "countryId": "sa",
+    "text": "В 1986 году король этой страны заменил обращение «Его Величество» титулом «Хранитель двух святынь».",
+    "source": "https://en.wikipedia.org/wiki/King_of_Saudi_Arabia"
+  },
+  {
+    "id": "sa-6",
+    "countryId": "sa",
+    "text": "В городе Джидда в этой стране есть место, почитаемое как могила Евы; в 1975 году религиозные власти залили его бетоном.",
+    "source": "https://en.wikipedia.org/wiki/Tomb_of_Eve"
+  },
+  {
+    "id": "sa-7",
+    "countryId": "sa",
+    "text": "В этой стране находится Эль-Хаса - крупнейший оазис мира площадью около 85 км², где растёт больше 2,5 млн пальм.",
+    "source": "https://en.wikipedia.org/wiki/Al-Ahsa_Oasis"
+  },
+  {
+    "id": "sa-8",
+    "countryId": "sa",
+    "text": "Первым объектом всемирного наследия ЮНЕСКО в этой стране в 2008 году стала Хегра (Мадаин-Салих), второй по величине город Набатейского царства после Петры.",
+    "source": "https://en.wikipedia.org/wiki/Hegra"
+  },
+  {
+    "id": "sa-9",
+    "countryId": "sa",
+    "text": "В этой стране находится Гавар - крупнейшее в мире традиционное нефтяное месторождение размером 280 на 30 км.",
+    "source": "https://en.wikipedia.org/wiki/Ghawar_Field"
+  },
+  {
+    "id": "sa-10",
+    "countryId": "sa",
+    "text": "По Основному закону 1992 года конституцией этой страны служат Коран и Сунна пророка Мухаммеда.",
+    "source": "https://en.wikipedia.org/wiki/Basic_Law_of_Saudi_Arabia"
+  },
+  {
+    "id": "kw-1",
+    "countryId": "kw",
+    "text": "По данным на 2026 год, денежная единица этой страны - самая дорогая в мире в расчёте на одну единицу.",
+    "source": "https://en.wikipedia.org/wiki/Kuwaiti_dinar"
+  },
+  {
+    "id": "kw-2",
+    "countryId": "kw",
+    "text": "21 июля 2016 года на станции Митриба в этой стране зафиксировали 53,9 °C, самую высокую температуру за всю историю наблюдений в Азии.",
+    "source": "https://wmo.int/media/news/wmo-verifies-3rd-and-4th-hottest-temperature-recorded-earth"
+  },
+  {
+    "id": "kw-3",
+    "countryId": "kw",
+    "text": "По Страбону и Арриану, Александр Македонский назвал остров Файлака у берегов этой страны Икаросом, потому что он напоминал одноимённый остров в Эгейском море.",
+    "source": "https://en.wikipedia.org/wiki/Kuwait"
+  },
+  {
+    "id": "kw-4",
+    "countryId": "kw",
+    "text": "Суверенный фонд этой страны - старейший в мире. Он ведёт историю от инвестиционного совета, созданного в 1953 году, за восемь лет до независимости.",
+    "source": "https://www.ifswf.org/member-profiles/kuwait-investment-authority"
+  },
+  {
+    "id": "kw-5",
+    "countryId": "kw",
+    "text": "Название этой страны - уменьшительная форма арабского слова «кут», и означает оно «крепость, построенная у воды».",
+    "source": "https://en.wikipedia.org/wiki/Kuwait"
+  },
+  {
+    "id": "kw-6",
+    "countryId": "kw",
+    "text": "В начале 1991 года иракские войска подожгли в этой стране, по разным данным, от 605 до 732 нефтяных скважин; последнюю заглушили 6 ноября 1991 года.",
+    "source": "https://en.wikipedia.org/wiki/Kuwaiti_oil_fires"
+  },
+  {
+    "id": "kw-7",
+    "countryId": "kw",
+    "text": "До 1961 года в этой стране ходила рупия Персидского залива, равная индийской рупии; в 1961 году её заменил динар.",
+    "source": "https://en.wikipedia.org/wiki/Kuwaiti_dinar"
+  },
+  {
+    "id": "kw-8",
+    "countryId": "kw",
+    "text": "В этой стране находится Большой Бурган - крупнейшее в мире нефтяное месторождение в песчаниках и второе по величине вообще после саудовского Гавара.",
+    "source": "https://en.wikipedia.org/wiki/Burgan_field"
+  },
+  {
+    "id": "bh-1",
+    "countryId": "bh",
+    "text": "Всемирный торговый центр в этой стране - первый в мире небоскрёб со встроенными в конструкцию ветряными турбинами. Три турбины висят на мостах между двумя башнями.",
+    "source": "https://en.wikipedia.org/wiki/Bahrain_World_Trade_Center"
+  },
+  {
+    "id": "bh-2",
+    "countryId": "bh",
+    "text": "В пустыне этой страны больше 400 лет растёт одинокое «Дерево жизни» высотой почти 10 м, и до сих пор точно неизвестно, как оно выживает.",
+    "source": "https://en.wikipedia.org/wiki/Tree_of_Life_(Bahrain)"
+  },
+  {
+    "id": "bh-3",
+    "countryId": "bh",
+    "text": "Название этой страны в переводе с арабского означает «два моря».",
+    "source": "https://en.wikipedia.org/wiki/Bahrain"
+  },
+  {
+    "id": "bh-4",
+    "countryId": "bh",
+    "text": "В 1970 году ООН опросила жителей этой островной страны, хотят ли они независимости или власти Ирана. В мае того же года Иран отказался от притязаний на неё.",
+    "source": "https://en.wikipedia.org/wiki/1970_Bahraini_independence_survey"
+  },
+  {
+    "id": "bh-5",
+    "countryId": "bh",
+    "text": "В 2019 году ЮНЕСКО внесла в список всемирного наследия курганы Дильмуна в этой стране, около 11 774 погребальных холмов, построенных в 2050-1750 годах до н.э.",
+    "source": "https://tribune.com.pk/story/2007776/unesco-adds-bahrain-burial-mounds-world-heritage-list"
+  },
+  {
+    "id": "bh-6",
+    "countryId": "bh",
+    "text": "В 2004 году в этой стране прошёл первый на Ближнем Востоке Гран-при «Формулы-1».",
+    "source": "https://en.wikipedia.org/wiki/2004_Bahrain_Grand_Prix"
+  },
+  {
+    "id": "bh-7",
+    "countryId": "bh",
+    "text": "Эта страна площадью около 760 км² - третья самая маленькая в Азии после Мальдив и Сингапура.",
+    "source": "https://en.wikipedia.org/wiki/Bahrain"
+  },
+  {
+    "id": "bh-8",
+    "countryId": "bh",
+    "text": "Эту островную страну с Саудовской Аравией соединяет дамба короля Фахда, цепочка мостов и насыпей длиной 25 км, открытая в 1986 году.",
+    "source": "https://en.wikipedia.org/wiki/King_Fahd_Causeway"
+  },
+  {
+    "id": "qa-1",
+    "countryId": "qa",
+    "text": "Флаг этой страны - единственный государственный флаг, ширина которого больше высоты более чем вдвое (пропорции 11:28).",
+    "source": "https://en.wikipedia.org/wiki/Flag_of_Qatar"
+  },
+  {
+    "id": "qa-2",
+    "countryId": "qa",
+    "text": "На Олимпиаде в Токио прыгун в высоту из этой страны Мутаз Баршим и итальянец Джанмарко Тамбери взяли одинаковую высоту 2,37 м и договорились разделить золото.",
+    "source": "https://en.wikipedia.org/wiki/Mutaz_Essa_Barshim"
+  },
+  {
+    "id": "qa-3",
+    "countryId": "qa",
+    "text": "Один из стадионов чемпионата мира 2022 года в этой стране построен с использованием 974 морских контейнеров, а число 974 - её международный телефонный код.",
+    "source": "https://en.wikipedia.org/wiki/Stadium_974"
+  },
+  {
+    "id": "qa-4",
+    "countryId": "qa",
+    "text": "Эта страна делит с Ираном крупнейшее в мире месторождение природного газа.",
+    "source": "https://en.wikipedia.org/wiki/South_Pars/North_Dome_Gas-Condensate_field"
+  },
+  {
+    "id": "qa-5",
+    "countryId": "qa",
+    "text": "Музей исламского искусства в этой стране спроектировал И. М. Пей, которого в 91 год уговорили выйти из отставки. По его идее музей построили на отдельном острове.",
+    "source": "https://en.wikipedia.org/wiki/Museum_of_Islamic_Art,_Doha"
+  },
+  {
+    "id": "qa-6",
+    "countryId": "qa",
+    "text": "Чемпионат мира по футболу 2022 года в этой стране стал первым на Ближнем Востоке и первым, прошедшим в конце года, вне традиционных мая-июля.",
+    "source": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+  },
+  {
+    "id": "qa-7",
+    "countryId": "qa",
+    "text": "Руины Зубары, торгового и жемчужного центра на побережье этой страны, в 2013 году внесены в список всемирного наследия ЮНЕСКО.",
+    "source": "https://en.wikipedia.org/wiki/Al_Zubarah"
+  },
+  {
     "id": "bt-1",
     "countryId": "bt",
     "text": "Высочайшая гора этой страны Гангкар Пуенсум (7570 м) - самая высокая непокорённая вершина мира. С 2003 года альпинизм в стране полностью запрещён.",
